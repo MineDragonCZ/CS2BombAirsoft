@@ -88,7 +88,7 @@ void setup(){
     softSerial.begin(9600);
     soundPlayer.begin(softSerial);
     delay(100);
-    soundPlayer.volume(30);
+    soundPlayer.volume(100);
     soundPlayer.play(SOUND_LOC_T_PLANTING);
 }
 
